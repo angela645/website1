@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 2%;
+        }
+        body {
+            background-color: pink;
+        }
+        .TitleMo {
+            text-align: center;
+        }
+        .Ako {
+            text-align: center;
+        }
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        h3 {
+            text-align: center;
+            border-style: dashed;
+            border-radius: 5%;
+            border-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="TitleMo">One of the things i like<3</h1>
+    <p class="Ako">My name is Angela! And this is my simple website!</p>
+    <div class="row">
+        <div class="column">
+            <img src="peace.jpg" alt="peace" style="width: 100%; border-style: dotted; border-radius: 5%; border-color: white;">
+        </div>
+        <div class="column">
+            <img src="church.jpg" alt="sky" style="width: 100%; border-style: dotted; border-radius: 5%; border-color: white;">
+        </div>
+        <div class="column">
+            <img src="sunset.jpg" alt="church" style="width: 100%; border-style: dotted; border-radius: 5%; border-color: white;">
+        </div>
+    </div>
+    <h3>I love to explore outdoors! Why?</h3>
+    <h3> Because this helps my mental health  to reduce stress, anxiety and depression.<h3>
+</body>
+</html>
